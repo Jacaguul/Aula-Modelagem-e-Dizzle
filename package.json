@@ -1,0 +1,31 @@
+{
+  "name": "aula-20-modelagem-e-dizzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:push": "drizzle-kit push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoLM13/Aula-20-Modelagem-e-Dizzle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HugoLM13/Aula-20-Modelagem-e-Dizzle/issues"
+  },
+  "homepage": "https://github.com/HugoLM13/Aula-20-Modelagem-e-Dizzle#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10"
+  }
+}
